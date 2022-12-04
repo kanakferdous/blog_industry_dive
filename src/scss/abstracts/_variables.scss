@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+// Primary Colors
+$primary_main: #171063;
+$primary_main_1: #27385A;
+$primary_dark: #0E0948;
+$primary_light: #27207E;
+$primary_lighter: #9FB9F5;
+
+// Secondary Colors
+$secondary_main: #161616;
+$secondary_dark: #030303;
+$secondary_light: #2B2B2B;
+$secondary_darker: #1E1C3A;
+
+// Netural Colors
+$netural_main: #E8E8E8;
+$netural_dark: #D1D1D4;
+$netural_light: #F5F5F5;
+$netural_lighter: #F1F1F6;
+$netural_darker: #F9F9FB;
+$netural_grey: #D4D4D4;
+
+// Accent Colors One
+$accent_main_one: #C24235;
+$netural_dark_one: #AF3427;
+$netural_light_one: #D64F42;
+
+// Accent Colors Two
+$accent_main_two: #EEA82A;
+$netural_dark_two: #E89D15;
+$netural_light_two: #F8B338;
+
+// Accent Colors Three
+$accent_main_three: #0D45CE;
+
+// Other Colors
+$color_white: #ffffff;
+$color_black: #000000;
+
+// Font Family
+$montserrat: 'Montserrat', sans-serif;
+$opensans: 'Open Sans', sans-serif;
