@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Khand';
+    src: url('Khand-Bold.eot');
+    src: url('Khand-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Khand-Bold.woff2') format('woff2'),
+        url('Khand-Bold.woff') format('woff'),
+        url('Khand-Bold.ttf') format('truetype'),
+        url('Khand-Bold.svg#Khand-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Khand';
+    src: url('Khand-Bold_1.eot');
+    src: url('Khand-Bold_1.eot?#iefix') format('embedded-opentype'),
+        url('Khand-Bold_1.woff2') format('woff2'),
+        url('Khand-Bold_1.woff') format('woff'),
+        url('Khand-Bold_1.ttf') format('truetype'),
+        url('Khand-Bold_1.svg#Khand-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Khand';
+    src: url('Khand-Bold_2.eot');
+    src: url('Khand-Bold_2.eot?#iefix') format('embedded-opentype'),
+        url('Khand-Bold_2.woff2') format('woff2'),
+        url('Khand-Bold_2.woff') format('woff'),
+        url('Khand-Bold_2.ttf') format('truetype'),
+        url('Khand-Bold_2.svg#Khand-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Khand';
+    src: url('Khand-Bold_3.eot');
+    src: url('Khand-Bold_3.eot?#iefix') format('embedded-opentype'),
+        url('Khand-Bold_3.woff2') format('woff2'),
+        url('Khand-Bold_3.woff') format('woff'),
+        url('Khand-Bold_3.ttf') format('truetype'),
+        url('Khand-Bold_3.svg#Khand-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

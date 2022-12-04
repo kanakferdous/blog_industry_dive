@@ -2,9 +2,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20170731 at Mon Jul 14 18:16:05 2014
+Created by FontForge 20170731 at Sun Dec  4 20:46:39 2022
  By Aleksey,,,
-Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)
 </metadata>
 <defs>
 <font id="Khand-Bold" horiz-adv-x="224" >
@@ -20,7 +19,7 @@ Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)
     cap-height="693"
     bbox="-501 -479 1872 1050"
     underline-thickness="50"
-    underline-position="-150"
+    underline-position="-200"
     unicode-range="U+000D-FB02"
   />
 <missing-glyph horiz-adv-x="750" 
@@ -33,8 +32,12 @@ d="M441 747v-747h-148v650h-10q-38 0 -54 -12.5t-16 -38.5v-9h52v-118h-51v-472h-152
 d="M234 651v-601h282v601h-282zM180 0v701h390v-701h-390z" />
     <glyph glyph-name=".null" horiz-adv-x="0" 
  />
+    <glyph glyph-name=".null" horiz-adv-x="0" 
+ />
     <glyph glyph-name="nonmarkingreturn" horiz-adv-x="333" 
  />
+    <glyph glyph-name="glyph5" horiz-adv-x="750" 
+d="M234 651v-601h282v601h-282zM180 0v701h390v-701h-390z" />
     <glyph glyph-name="NULL" horiz-adv-x="0" 
  />
     <glyph glyph-name="NULL" horiz-adv-x="0" 

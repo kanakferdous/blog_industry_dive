@@ -141,6 +141,10 @@ function blog_indive_scripts() {
 	wp_enqueue_style( 'blog_indive-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'blog_indive-style', 'rtl', 'replace' );
 
+	// Fonts
+	wp_enqueue_style( 'invention-font', get_template_directory_uri() . '/assets/fonts/invention/stylesheet.css', array(), _S_VERSION );
+	wp_enqueue_style( 'khand-font', get_template_directory_uri() . '/assets/fonts/invention/stylesheet.css', array(), _S_VERSION );
+
 	wp_enqueue_script( 'blog_indive-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
