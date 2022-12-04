@@ -8,4 +8,5 @@ mix.options({
     })
   ]
 });
-mix.sass('src/scss/core/reset.scss', 'assets/css/core/reset.css');
+mix.sass('src/scss/core/reset.scss', 'assets/css/core/reset.css')
+.sass('src/scss/style.scss', 'assets/css/style.css');

@@ -1,0 +1,22 @@
+// Top Bar Search Form
+.top_bar {
+  .search_box {
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    .search-form {
+      .search-field {
+        background-color: #ececec;
+        border: 0px;
+        border-radius: 30px;
+        padding: 6px 20px;
+        line-height: normal;
+        font-size: 14px;
+      }
+      .search-submit {
+        display: none;
+      }
+    }
+  }
+}

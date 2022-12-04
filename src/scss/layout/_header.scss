@@ -2,3 +2,63 @@
 # Variables
 --------------------------------------------------------------*/
 @import "../abstracts/variables";
+
+.site-header {
+  background-color: $color_white;
+  padding: 25px 0px;
+}
+
+/*-------------------
+# Top Bar
+----------------------------*/
+.top_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  .site-branding {
+    text-align: center;
+    flex-grow: 1;
+    .site-title {
+      margin-bottom: 5px;
+      a {
+        font-family: $invention;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: normal;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $color_black_2;
+        letter-spacing: 4px;
+      }
+    }
+    .site-description {
+      font-size: 18px;
+      line-height: normal;
+      color: $text_color;
+    }
+  }
+  .subscribe_btn {
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    .subscribe_head {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6px 15px;
+      border: 0px;
+      border-radius: 15px;
+      background-color: #049791;
+      color: #fff;
+      font-size: 14px;
+      line-height: normal;
+      svg {
+        width: 16px;
+        height: 16px;
+        margin-right: 6px;
+      }
+    }
+  }
+}

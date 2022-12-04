@@ -143,7 +143,13 @@ function blog_indive_scripts() {
 
 	// Fonts
 	wp_enqueue_style( 'invention-font', get_template_directory_uri() . '/assets/fonts/invention/stylesheet.css', array(), _S_VERSION );
-	wp_enqueue_style( 'khand-font', get_template_directory_uri() . '/assets/fonts/invention/stylesheet.css', array(), _S_VERSION );
+	wp_enqueue_style( 'khand-font', get_template_directory_uri() . '/assets/fonts/khand/stylesheet.css', array(), _S_VERSION );
+
+	// Reset CSS
+	wp_enqueue_style( 'reset', get_template_directory_uri() . '/assets/css/core/reset.css', array(), _S_VERSION );
+
+	// Main CSS
+	wp_enqueue_style( 'main', get_template_directory_uri() . '/assets/css/style.css', array(), _S_VERSION );
 
 	wp_enqueue_script( 'blog_indive-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
