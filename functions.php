@@ -50,6 +50,7 @@ function blog_indive_setup() {
 	register_nav_menus(
 		array(
 			'menu-1' => esc_html__( 'Primary', 'blog_indive' ),
+			'footer' => esc_html__( 'Footer', 'blog_indive' ),
 		)
 	);
 

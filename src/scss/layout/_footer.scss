@@ -2,3 +2,54 @@
 # Variables
 --------------------------------------------------------------*/
 @import "../abstracts/variables";
+.site-footer {
+  background-color: #333e47;
+  padding: 50px 0px;
+  .site-footer_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .footer_left {
+      .footer-navigation {
+        margin-bottom: 50px;
+      }
+      .site-info {
+        font-size: 14px;
+        line-height: normal;
+        color: $color_white;
+      }
+    }
+    .footer_right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: center;
+      .widget_title {
+        font-family: $invention;
+        font-size: 20px;
+        color: $color_white;
+      }
+      .footer_subscribe_btn {
+        margin-top: 15px;
+        .subscribe_head {
+          background-color: $color_white;
+          font-size: 14px;
+          line-height: normal;
+          letter-spacing: 1.5px;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 10px 15px;
+          border-radius: 30px;
+          border: 0px;
+          svg {
+            width: 16px;
+            height: 16px;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}
