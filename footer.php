@@ -47,5 +47,30 @@
 
 <?php wp_footer(); ?>
 
+<div id="popup_form">
+  <div class="rendered-form">
+		<form action="" class="form_container">
+      <input type="text" placeholder="Full Name" name="fullname" required>
+      <input type="email" placeholder="E-mail" name="mail" required>
+      <button type="submit"><?php echo esc_html__( 'Subscribe', 'blog_indive' );?></button>
+			<button class="popup__close"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"/></svg></button>
+    </form>
+  </div>
+</div>
+<script>
+const popupTrigger = document.querySelector('.subscribe_head');
+const popup = document.querySelector('#popup_form');
+const popupClose = document.querySelector('.popup__close');
+
+popupTrigger.addEventListener('click', (e) => {
+	popup.classList.add('show');
+	document.body.style.cssText = `overflow: hidden;`;
+});
+
+popupClose.addEventListener('click', (e) => {
+  popup.classList.remove('show');
+  document.body.style.cssText = '';
+});
+</script>
 </body>
 </html>
