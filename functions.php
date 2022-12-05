@@ -155,6 +155,9 @@ function blog_indive_scripts() {
 	// Landing Page CSS
 	wp_enqueue_style( 'landing', get_template_directory_uri() . '/assets/css/pages/landing_page.css', array(), _S_VERSION );
 
+	// Responsive CSS
+	wp_enqueue_style( 'responsive', get_template_directory_uri() . '/assets/css/responsive/responsive.css', array(), _S_VERSION );
+
 	// Load More Js
 	wp_enqueue_script( 'blog_indive-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
